@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaviya | UI/UX Designer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #020617;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: #e2e8f0;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+}
+
+.hero-text span {
+  color: #38bdf8;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  max-width: 500px;
+}
+
+.btn {
+  padding: 12px 20px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.hero img {
+  width: 230px;
+  border-radius: 20px;
+}
+
+/* SECTION */
+section {
+  padding: 60px;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* PROJECT GRID */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+/* TIMELINE */
+.timeline div {
+  margin-bottom: 15px;
+}
+
+/* SKILLS */
+.skills span {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 12px;
+  background: #334155;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+</style>
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Kaviya</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-text">
+    <h1>Hi, I'm <span>Kaviya</span></h1>
+    <p>
+      I design user-friendly digital experiences and build intuitive UI/UX solutions with a focus on simplicity and usability.
+    </p>
+    <a href="C:\Users\acer\OneDrive\Documents\RESUME.docx" class="btn">Download Resume</a>
+  </div>
+  <img src="C:\Users\acer\Downloads\ChatGPT Image Apr 26, 2026, 03_17_31 PM.png" alt="profile">
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      BCA student with experience in UI/UX, Front-End Development, and Generative AI.
+      Passionate about solving real-world problems through design thinking.
+    </p>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+  <h2>Experience</h2>
+  <div class="timeline">
+    <div class="card">Cybernaut – UI/UX Intern</div>
+    <div class="card">Brillersys – Generative AI Intern</div>
+    <div class="card">T4TEQ – Full Stack Intern</div>
+    <div class="card">NullClass – Front-End Intern</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+
+    <div class="card">
+      <h3>Fitness Tracker App</h3>
+      <p>UI/UX design for health tracking system.</p>
+    </div>
+
+    <div class="card">
+      <h3>AI Interface Design</h3>
+      <p>Improved usability of AI applications.</p>
+    </div>
+
+    <div class="card">
+      <h3>Web UI Projects</h3>
+      <p>Responsive websites and landing pages.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>UI/UX</span>
+    <span>Figma</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Python</span>
+    <span>SQL</span>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: rkaviya706@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Kaviya</p>
+</footer>
+
+</body>
+</html>
